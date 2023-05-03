@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Mostly Spaghetti</title>
+</head>
+<body>
+    <div class="flex flex-col h-screen max-w-full">
+
+        <!-- navbar -->
+        <nav class="top-0 left-0 z-20 fixed w-full p-1 m-0 bg-white shadow-lg">
+            <div class="max-w-full mx-auto px-10">
+                <div class="flex">
+                    <div class="flex space-x-7">
+
+                        <!-- logo -->
+                        <div class="flex-inline items-center py-3 px-4">
+                            <a href="index.html" class="font-bold text-[#ef6c47] text-5xl uppercase hover:text-[#ed5a30] hover:border-b-2 border-gray-200 transition-duration-300">mostly spaghetti</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-1 overflow-y-auto p-5">
+
+            <!-- card grid -->
+            <div class="grid gap-10 gap-y-10 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-12 py-5 px-5">
+
+                <!-- recipe card 1 -->
+                <button id="recipeOne" class="recipeCard">
+                    <div class="bg-white border border-gray-100 rounded-md overflow-hidden relative shadow-md hover:shadow-xl transition duration-200 h-80">
+                        <div>
+                            <img class="w-full h-32 sm:h-48 object-cover"
+                                src="https://hips.hearstapps.com/delish/assets/17/21/1495649941-pesto-spaghetti-horizontal.jpg"
+                                alt="50/50 pesto spaghetti">
+                        </div>
+                        <div class="p-4">
+                            <h2 class="text-left text-2xl text-[#ef6c47] hover:text-[#ed5a30] transition-duration-300">50/50 Pesto Spaghetti</h2>
+                            <p class="absolute bottom-0 mb-5 mr-6 text-left text-gray-500 line-clamp-1">A little pasta, a little zoodle</p>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 mt-4 mr-4 bg-slate-50/60 text-gray-700 rounded-full pt-1 pb-1 pl-4 pr-5 text-xs uppercase">
+                            <span>40 min</span>
+                        </div>
+                    </div>
+                </button>
+
+                <!-- recipe card 2 -->
+                <button id="recipeTwo" class="recipeCard">
+                    <div class="bg-white border border-gray-100 rounded-md overflow-hidden relative shadow-md hover:shadow-xl transition duration-200 h-80">
+                        <div>
+                            <img class="w-full h-32 sm:h-48 object-cover"
+                                src="https://hips.hearstapps.com/del.h-cdn.co/assets/16/12/1458855687-asparagus-pasta.jpg?crop=1xw:0.99975xh;center,top&resize=1200:*"
+                                alt="asparagus, tomato, and chicken spaghetti">
+                        </div>
+                        <div class="p-4">
+                            <h2 class="text-left text-2xl text-[#ef6c47] hover:text-[#ed5a30] transition-duration-300">Asparagus, Tomato, and Chicken Spaghetti</h2>
+                            <p class="absolute bottom-0 mb-5 mr-6 text-left text-gray-500 line-clamp-1">Asparagus lovers, prepare to freak out over this sundried tomato creamy pasta</p>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 mt-4 mr-4 bg-slate-50/60 text-gray-700 rounded-full pt-1 pb-1 pl-4 pr-5 text-xs uppercase">
+                            <span>30 min</span>
+                        </div>
+                    </div>
+                </button>
+
+                <!-- recipe card 3 -->
+                <button id="recipeThree" class="recipeCard">
+                    <div
+                        class="bg-white border border-gray-100 rounded-md overflow-hidden relative shadow-md hover:shadow-xl transition duration-200 h-80">
+                        <div>
+                            <img class="w-full h-32 sm:h-48 object-cover"
+                                src="https://www.marthastewart.com/thmb/q1OF0xj0jXLlCMkkK-AVQg57WMk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/spaghetti-with-brussels-sprouts-and-bacon-102797750_horiz-a5770addbb174b3b8d9ea7d3158703ab.jpgitok8hz70hta"
+                                alt="bacon and brussels sprouts spaghetti">
+                        </div>
+                        <div class="p-4">
+                            <h2 class="text-left text-2xl text-[#ef6c47] hover:text-[#ed5a30] transition-duration-300">Bacon and Brussels Sprouts Spaghetti</h2>
+                            <p class="absolute bottom-0 mb-5 mr-6 text-left text-gray-500 line-clamp-1">A favorite dish: caramelized brussels with bacon</p>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 mt-4 mr-4 bg-slate-50/60 text-gray-700 rounded-full pt-1 pb-1 pl-4 pr-5 text-xs uppercase">
+                            <span>30 min</span>
+                        </div>
+                    </div>
+                </button>
+
+            </div>
+
+        </main>
+
+
+    </div>
+    
+</body>
+</html>
