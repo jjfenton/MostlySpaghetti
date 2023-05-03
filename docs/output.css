@@ -656,6 +656,10 @@ video {
   margin-right: 1.5rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -876,6 +880,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-10 {
