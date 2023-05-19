@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel=" icon" type="image/png" href="./favicon.png?">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="flex flex-col h-screen max-w-full">
+
+        <!-- navbar -->
+        <nav class="top-0 left-0 z-20 w-full p-1 m-0 bg-white shadow-lg">
+            <div class="max-w-full mx-auto px-10">
+                <div class="flex">
+                    <div class="flex space-x-7">
+
+                        <!-- logo -->
+                        <div class="flex-inline items-center py-3 px-4">
+                            <a href="index.html"
+                                class="font-bold text-[#ef6c47] lg:text-5xl md:text-3xl uppercase hover:text-[#ed5a30] hover:border-b-2 border-gray-200 transition-duration-300">mostly
+                                spaghetti</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="flex-1 overflow-y-auto p-5">
+
+            <!-- card grid -->
+            <div class="recipe-menu grid gap-10 gap-y-10 md:grid-cols-2 lg:grid-cols-3 mb-8 mt-7 py-5 px-5">
+
+                <!-- recipe card 1 -->
+                <button id="recipeOne" class="recipeCard">
+                    <div
+                        class="bg-white border border-gray-100 rounded-md overflow-hidden relative shadow-md hover:shadow-xl transition duration-200 h-80">
+                        <div>
+                            <img class="w-full h-32 sm:h-48 object-cover"
+                                src="https://hips.hearstapps.com/delish/assets/17/21/1495649941-pesto-spaghetti-horizontal.jpg"
+                                alt="50/50 pesto spaghetti">
+                        </div>
+                        <div class="p-4">
+                            <h2
+                                class="text-left text-2xl text-[#ef6c47] hover:text-[#ed5a30] transition-duration-300 line-clamp-2">
+                                50/50 Pesto Spaghetti</h2>
+                            <p class="absolute bottom-0 mb-5 mr-6 text-left text-gray-500 line-clamp-1">A little pasta,
+                                a little zoodle</p>
+                        </div>
+                        <div
+                            class="absolute top-0 right-0 mt-4 mr-4 bg-slate-50/60 text-gray-700 rounded-full pt-1 pb-1 pl-4 pr-5 text-xs uppercase">
+                            <span>40 min</span>
+                        </div>
+                    </div>
+                </button>
+
+                <!-- recipe modal 1 -->
+                <div class="modal hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50" id="modalOne">
+                    <div class="relative w-auto my-6 mx-auto max-w-3xl">
+
+                        <!--content-->
+                        <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-xl transition duration-200
+                                     bg-white">
+
+                            <!--header-->
+                            <div
+                                class="flex items-start justify-between p-5 border-b border-solid border-gray-200 rounded-t">
+                                <h3 class="text-left text-2xl text-yellow-600">Garlicky Spinach Chickpea Soup</h3>
+                                <h4 class="text-right text-md text-gray-500">50 min</h4>
+                            </div>
+
+                            <!--body-->
+                            <div class="relative p-6 flex-auto">
+                                <p class="my-4 mb-4 text-left text-sm text-gray-500 uppercase leading-relaxed">
+                                    <span class="underline">You will need: </span>
+                                    <br><br>
+                                    2 (15-ounce) cans chickpeas
+                                    <br>
+                                    1 large yellow onion, roughly chopped
+                                    <br>
+                                    5 large garlic cloves
+                                    <br>
+                                    kosher salt
+                                    <br>
+                                    1 teaspoon ground cumin
+                                    <br>
+                                    1 teaspoon ground coriander
+                                    <br>
+                                    3/4 teaspoon sweet paprika
+                                    <br>
+                                    1/2 teaspoon red peper flakes
+                                    <br>
+                                    1/2 teaspoon ground black pepper
+                                    <br>
+                                    4 cups vegetable stock or low-sodium chicken broth
+                                    <br>
+                                    2 cups (packed) fresh baby spinach (2 to 3 ounces)
+                                    <br>
+                                    1/2 cup roughly chopped fresh flat-leaf parsley
+                                    <br>
+                                    1 large lemon, cut in half
+                                    <br>
+                                    1/2 cup grated peccorino romano cheese
+                                    <br>
+                                    crusty bread, for serving
+                                    <br><br>
+                                    <span class="underline">Directions:</span>
+                                    <br><br>
+                                    <span class="">
+                                        1. Drain the chickpeas, reserving 1/2 cup of their liquid.
+                                        <br><br>
+                                        2. In a large pot, heat 3 tablespoons of the olive oil over medium heat until
+                                        shimmering. Add
+                                        the onion
+                                        and garlic and season with a big pinch of salt (about 1/2 tablespoon). Cook over
+                                        medium heat,
+                                        stirring
+                                        regularlym until fragrant, about 5 minutes. Add the cumin, coriander, paprika,
+                                        red pepper
+                                        flakes, and black pepper
+                                        and cook, stirring regularly for about 30 seconds.
+                                        <br><br>
+                                        3. Add the chickpeas and stir to coat with the spices. Using a potato masher or
+                                        the back of a
+                                        sturdy fork, roughly
+                                        mash the chickpeas (you're just looking to break some of the chickpeas).
+                                        <br><br>
+                                        4. Add the stock and the reserved chickpea liquid. Raise the heat and bring to a
+                                        boil, then boil
+                                        for 5 minutes. Turn
+                                        the heat down to medium-low and partly cover the pot with the lid. Simmer the
+                                        chickpeas for 30
+                                        minutes.
+                                        <br><br>
+                                        5. Turn the heat off. Stir in the spinach and the parsley, and let the soup sit
+                                        for 1 minute,
+                                        until the spinach wilts.
+                                        Squeeze half a lemon over the soup, stir, and taste, adding more lemon juice to
+                                        your liking.
+                                        <br><br>
+                                        6. Transfer the soup to serving bowls and top each bowl with a drizzle of olive
+                                        oil and a bit of
+                                        grated pecorino
+                                        romano cheese. Serve with crusty bread.
+                                    </span>
+                                </p>
+                            </div>
+
+                            <!--footer-->
+                            <div class="flex items-center justify-end p-6 border-t border-solid border-gray-200">
+                                <button
+                                    class="close text-yellow-600 background-transparent font-semibold uppercase absolute bottom-3 right-4 mt-4 hover:text-gray-500"
+                                    type="button" id="close">
+                                    close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </main>
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>
