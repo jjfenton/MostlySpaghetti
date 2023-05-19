@@ -49,7 +49,6 @@ window.onclick = function(event) {
 var datamap = new Map([
             [document.getElementById("recipeOne"), document.getElementById("modalOne")],
             [document.getElementById("recipeTwo"), document.getElementById("modalTwo")],
-            [document.getElementById("myBtn2"), document.getElementById("myModal2")]
         ]);
 
         datamap.forEach((value, key) => {
