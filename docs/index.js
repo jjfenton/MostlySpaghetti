@@ -54,6 +54,9 @@ var datamap = new Map([
             [document.getElementById("recipeFive"), document.getElementById("modalFive")],
             [document.getElementById("recipeSix"), document.getElementById("modalSix")],
             [document.getElementById("recipeSeven"), document.getElementById("modalSeven")],
+            [document.getElementById("recipeEight"), document.getElementById("modalEight")],
+            [document.getElementById("recipeNine"), document.getElementById("modalNine")],
+            [document.getElementById("recipeTen"), document.getElementById("modalTen")],
         ]);
 
         datamap.forEach((value, key) => {
