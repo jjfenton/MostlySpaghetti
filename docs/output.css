@@ -621,6 +621,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -647,6 +652,18 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .line-clamp-1 {
@@ -725,6 +742,14 @@ video {
 
 .resize {
   resize: both;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .flex-col {
@@ -960,6 +985,10 @@ video {
 
 .leading-relaxed {
   line-height: 1.625;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .text-\[\#ef6c47\] {
