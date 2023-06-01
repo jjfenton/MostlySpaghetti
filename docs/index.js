@@ -66,6 +66,16 @@ var datamap = new Map([
             [document.getElementById("recipeSeventeen"), document.getElementById("modalSeventeen")],
             [document.getElementById("recipeEighteen"), document.getElementById("modalEighteen")],
             [document.getElementById("recipeNineteen"), document.getElementById("modalNineteen")],
+            [document.getElementById("recipeTwenty"), document.getElementById("modalTwenty")],
+            [document.getElementById("recipeTwentyOne"), document.getElementById("modalTwentyOne")],
+            [document.getElementById("recipeTwentyTwo"), document.getElementById("modalTwentyTwo")],
+            [document.getElementById("recipeTwentyThree"), document.getElementById("modalTwentyThree")],
+            [document.getElementById("recipeTwentyFour"), document.getElementById("modalTwentyFour")],
+            [document.getElementById("recipeTwentyFive"), document.getElementById("modalTwentyFive")],
+            [document.getElementById("recipeTwentySix"), document.getElementById("modalTwentySix")],
+            [document.getElementById("recipeTwentySeven"), document.getElementById("modalTwentySeven")],
+            [document.getElementById("recipeTwentyEight"), document.getElementById("modalTwentyEight")],
+            [document.getElementById("recipeTwentyNine"), document.getElementById("modalTwentyNine")],
         ]);
 
         datamap.forEach((value, key) => {
