@@ -76,6 +76,17 @@ var datamap = new Map([
             [document.getElementById("recipeTwentySeven"), document.getElementById("modalTwentySeven")],
             [document.getElementById("recipeTwentyEight"), document.getElementById("modalTwentyEight")],
             [document.getElementById("recipeTwentyNine"), document.getElementById("modalTwentyNine")],
+            [document.getElementById("recipeThirty"), document.getElementById("modalThirty")],
+            [document.getElementById("recipeThirtyOne"), document.getElementById("modalThirtyOne")],
+            [document.getElementById("recipeThirtyTwo"), document.getElementById("modalThirtyTwo")],
+            [document.getElementById("recipeThirtyThree"), document.getElementById("modalThirtyThree")],
+            [document.getElementById("recipeThirtyFour"), document.getElementById("modalThirtyFour")],
+            [document.getElementById("recipeThirtyFive"), document.getElementById("modalThirtyFive")],
+            [document.getElementById("recipeThirtySix"), document.getElementById("modalThirtySix")],
+            [document.getElementById("recipeThirtySeven"), document.getElementById("modalThirtySeven")],
+            [document.getElementById("recipeThirtyEight"), document.getElementById("modalThirtyEight")],
+            [document.getElementById("recipeThirtyNine"), document.getElementById("modalThirtyNine")],
+            [document.getElementById("recipeFourty"), document.getElementById("modalFourty")],
         ]);
 
         datamap.forEach((value, key) => {
